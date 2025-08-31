@@ -1,4 +1,5 @@
 #include "LogControl.h"
+#include <ctime>
 
 using namespace std;
 

